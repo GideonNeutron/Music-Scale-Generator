@@ -12,10 +12,8 @@ else:
     exit()
 
 
-file_path = 'c:/Users/gideo/OneDrive/Documents/CS 110/Python Exercises/Music dictionary/'
-
 #Read the chord dictionary file and store the chord types and corresponding notes in a dictionary
-chord_file = [i.strip() for i in open(file_path + 'Full_Music_chord_types.txt')]
+chord_file = [i.strip() for i in open('Full_Music_chord_types.txt')]
 
 #Create a Chord Dictionary
 chord_dict = {}
